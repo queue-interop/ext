@@ -1,0 +1,26 @@
+run.config:
+  engine: php
+  engine.config:
+    runtime: php-7.2
+    extensions:
+      - curl
+      - dom
+      - fileinfo
+      - iconv
+      - mbstring
+      - zephir_parser
+      - xml
+      - xmlwriter
+      - zip
+  extra_packages:
+    - autoconf
+    - freefonts
+    - freetype2
+    - fontconfig
+    - re2c
+  extra_steps:
+    #===========================================================================
+    # Get the Zephir phar
+    - wget --no-clobber -O /data/bin/zephir https://github.com/phalcon/zephir/releases/download/0.11.11/zephir.phar
+    - chmod +x /data/bin/zephir
+
