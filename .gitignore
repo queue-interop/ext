@@ -1,0 +1,4 @@
+.zephir
+vendor/
+compile.log
+compile-errors.log
