@@ -1,8 +1,6 @@
 
 namespace Interop\Queue\Exception;
 
-use Interop\Queue\Message;
-
 class InvalidMessageException extends Exception
 {
     /**
@@ -11,7 +9,7 @@ class InvalidMessageException extends Exception
      *
      * @throws static
      */
-    public static function assertMessageInstanceOf(<Message> message, string className) -> void
+    public static function assertMessageInstanceOf(var message, string className) -> void
     {
         var name;
 
