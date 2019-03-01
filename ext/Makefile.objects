@@ -52,6 +52,10 @@ interop/queue/context.lo: /app/ext/interop/queue/context.zep.c
 	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/context.zep.c -o interop/queue/context.lo 
 interop/queue/exception/deliverydelaynotsupportedexception.lo: /app/ext/interop/queue/exception/deliverydelaynotsupportedexception.zep.c
 	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/deliverydelaynotsupportedexception.zep.c -o interop/queue/exception/deliverydelaynotsupportedexception.lo 
+interop/queue/exception/invaliddestinationexception.lo: /app/ext/interop/queue/exception/invaliddestinationexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/invaliddestinationexception.zep.c -o interop/queue/exception/invaliddestinationexception.lo 
+interop/queue/exception/invalidmessageexception.lo: /app/ext/interop/queue/exception/invalidmessageexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/invalidmessageexception.zep.c -o interop/queue/exception/invalidmessageexception.lo 
 interop/queue/exception/prioritynotsupportedexception.lo: /app/ext/interop/queue/exception/prioritynotsupportedexception.zep.c
 	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/prioritynotsupportedexception.zep.c -o interop/queue/exception/prioritynotsupportedexception.lo 
 interop/queue/exception/purgequeuenotsupportedexception.lo: /app/ext/interop/queue/exception/purgequeuenotsupportedexception.zep.c

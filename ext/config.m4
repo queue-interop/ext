@@ -16,6 +16,8 @@ if test "$PHP_INTEROP" = "yes"; then
 	interop/queue/consumer.zep.c
 	interop/queue/context.zep.c
 	interop/queue/exception/deliverydelaynotsupportedexception.zep.c
+	interop/queue/exception/invaliddestinationexception.zep.c
+	interop/queue/exception/invalidmessageexception.zep.c
 	interop/queue/exception/prioritynotsupportedexception.zep.c
 	interop/queue/exception/purgequeuenotsupportedexception.zep.c
 	interop/queue/exception/subscriptionconsumernotsupportedexception.zep.c

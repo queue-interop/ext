@@ -11,7 +11,7 @@ if (PHP_INTEROP != "no") {
   }
   
   ADD_SOURCES(configure_module_dirname + "/interop/queue", "exception.zep.c destination.zep.c connectionfactory.zep.c consumer.zep.c context.zep.c message.zep.c processor.zep.c producer.zep.c queue.zep.c subscriptionconsumer.zep.c topic.zep.c", "interop");
-	ADD_SOURCES(configure_module_dirname + "/interop/queue/exception", "exception.zep.c deliverydelaynotsupportedexception.zep.c prioritynotsupportedexception.zep.c purgequeuenotsupportedexception.zep.c subscriptionconsumernotsupportedexception.zep.c temporaryqueuenotsupportedexception.zep.c timetolivenotsupportedexception.zep.c", "interop");
+	ADD_SOURCES(configure_module_dirname + "/interop/queue/exception", "exception.zep.c deliverydelaynotsupportedexception.zep.c invaliddestinationexception.zep.c invalidmessageexception.zep.c prioritynotsupportedexception.zep.c purgequeuenotsupportedexception.zep.c subscriptionconsumernotsupportedexception.zep.c temporaryqueuenotsupportedexception.zep.c timetolivenotsupportedexception.zep.c", "interop");
   ADD_FLAG("CFLAGS_INTEROP", "/D ZEPHIR_RELEASE /Oi /Ot /Oy /Ob2 /Gs /GF /Gy /GL");
   ADD_FLAG("CFLAGS", "/D ZEPHIR_RELEASE /Oi /Ot /Oy /Ob2 /Gs /GF /Gy /GL");
   ADD_FLAG("LDFLAGS", "/LTCG");

@@ -275,25 +275,25 @@ m4trace:config.m4:11: -1- AC_DEFINE_TRACE_LITERAL([HAVE_INTEROP])
 m4trace:config.m4:11: -1- m4_pattern_allow([^HAVE_INTEROP$])
 m4trace:config.m4:11: -1- AH_OUTPUT([HAVE_INTEROP], [/* Whether you have Interop */
 @%:@undef HAVE_INTEROP])
-m4trace:config.m4:30: -1- AC_DEFINE_TRACE_LITERAL([COMPILE_DL_INTEROP])
-m4trace:config.m4:30: -1- m4_pattern_allow([^COMPILE_DL_INTEROP$])
-m4trace:config.m4:30: -1- AH_OUTPUT([COMPILE_DL_INTEROP], [/* Whether to build interop as dynamic module */
+m4trace:config.m4:32: -1- AC_DEFINE_TRACE_LITERAL([COMPILE_DL_INTEROP])
+m4trace:config.m4:32: -1- m4_pattern_allow([^COMPILE_DL_INTEROP$])
+m4trace:config.m4:32: -1- AH_OUTPUT([COMPILE_DL_INTEROP], [/* Whether to build interop as dynamic module */
 @%:@undef COMPILE_DL_INTEROP])
-m4trace:config.m4:36: -1- AH_OUTPUT([HAVE_EXT_PCRE_PHP_PCRE_H], [/* Define to 1 if you have the <ext/pcre/php_pcre.h> header file. */
+m4trace:config.m4:38: -1- AH_OUTPUT([HAVE_EXT_PCRE_PHP_PCRE_H], [/* Define to 1 if you have the <ext/pcre/php_pcre.h> header file. */
 @%:@undef HAVE_EXT_PCRE_PHP_PCRE_H])
-m4trace:config.m4:36: -1- AC_DEFINE_TRACE_LITERAL([HAVE_EXT_PCRE_PHP_PCRE_H])
-m4trace:config.m4:36: -1- m4_pattern_allow([^HAVE_EXT_PCRE_PHP_PCRE_H$])
-m4trace:config.m4:36: -1- AC_DEFINE_TRACE_LITERAL([ZEPHIR_USE_PHP_PCRE])
-m4trace:config.m4:36: -1- m4_pattern_allow([^ZEPHIR_USE_PHP_PCRE$])
-m4trace:config.m4:36: -1- AH_OUTPUT([ZEPHIR_USE_PHP_PCRE], [/* Whether PHP pcre extension is present at compile time */
+m4trace:config.m4:38: -1- AC_DEFINE_TRACE_LITERAL([HAVE_EXT_PCRE_PHP_PCRE_H])
+m4trace:config.m4:38: -1- m4_pattern_allow([^HAVE_EXT_PCRE_PHP_PCRE_H$])
+m4trace:config.m4:38: -1- AC_DEFINE_TRACE_LITERAL([ZEPHIR_USE_PHP_PCRE])
+m4trace:config.m4:38: -1- m4_pattern_allow([^ZEPHIR_USE_PHP_PCRE$])
+m4trace:config.m4:38: -1- AH_OUTPUT([ZEPHIR_USE_PHP_PCRE], [/* Whether PHP pcre extension is present at compile time */
 @%:@undef ZEPHIR_USE_PHP_PCRE])
-m4trace:config.m4:53: -1- AH_OUTPUT([HAVE_EXT_JSON_PHP_JSON_H], [/* Define to 1 if you have the <ext/json/php_json.h> header file. */
+m4trace:config.m4:55: -1- AH_OUTPUT([HAVE_EXT_JSON_PHP_JSON_H], [/* Define to 1 if you have the <ext/json/php_json.h> header file. */
 @%:@undef HAVE_EXT_JSON_PHP_JSON_H])
-m4trace:config.m4:53: -1- AC_DEFINE_TRACE_LITERAL([HAVE_EXT_JSON_PHP_JSON_H])
-m4trace:config.m4:53: -1- m4_pattern_allow([^HAVE_EXT_JSON_PHP_JSON_H$])
-m4trace:config.m4:53: -1- AC_DEFINE_TRACE_LITERAL([ZEPHIR_USE_PHP_JSON])
-m4trace:config.m4:53: -1- m4_pattern_allow([^ZEPHIR_USE_PHP_JSON$])
-m4trace:config.m4:53: -1- AH_OUTPUT([ZEPHIR_USE_PHP_JSON], [/* Whether PHP json extension is present at compile time */
+m4trace:config.m4:55: -1- AC_DEFINE_TRACE_LITERAL([HAVE_EXT_JSON_PHP_JSON_H])
+m4trace:config.m4:55: -1- m4_pattern_allow([^HAVE_EXT_JSON_PHP_JSON_H$])
+m4trace:config.m4:55: -1- AC_DEFINE_TRACE_LITERAL([ZEPHIR_USE_PHP_JSON])
+m4trace:config.m4:55: -1- m4_pattern_allow([^ZEPHIR_USE_PHP_JSON$])
+m4trace:config.m4:55: -1- AH_OUTPUT([ZEPHIR_USE_PHP_JSON], [/* Whether PHP json extension is present at compile time */
 @%:@undef ZEPHIR_USE_PHP_JSON])
 m4trace:configure.ac:149: -1- AC_PROG_LIBTOOL
 m4trace:configure.ac:149: -1- AC_SUBST([LN_S], [$as_ln_s])

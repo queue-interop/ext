@@ -11,6 +11,8 @@
 #include "interop/queue/consumer.zep.h"
 #include "interop/queue/context.zep.h"
 #include "interop/queue/exception/deliverydelaynotsupportedexception.zep.h"
+#include "interop/queue/exception/invaliddestinationexception.zep.h"
+#include "interop/queue/exception/invalidmessageexception.zep.h"
 #include "interop/queue/exception/prioritynotsupportedexception.zep.h"
 #include "interop/queue/exception/purgequeuenotsupportedexception.zep.h"
 #include "interop/queue/exception/subscriptionconsumernotsupportedexception.zep.h"
