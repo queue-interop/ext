@@ -1,0 +1,82 @@
+interop.lo: /app/ext/interop.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop.c -o interop.lo 
+kernel/main.lo: /app/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /app/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /app/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/debug.lo: /app/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /app/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /app/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /app/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/array.c -o kernel/array.lo 
+kernel/string.lo: /app/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /app/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/require.lo: /app/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /app/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /app/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/math.lo: /app/ext/kernel/math.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/math.c -o kernel/math.lo 
+kernel/concat.lo: /app/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /app/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /app/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /app/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /app/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /app/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/kernel/exit.c -o kernel/exit.lo 
+interop/queue/exception.lo: /app/ext/interop/queue/exception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception.zep.c -o interop/queue/exception.lo 
+interop/queue/exception/exception.lo: /app/ext/interop/queue/exception/exception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/exception.zep.c -o interop/queue/exception/exception.lo 
+interop/queue/destination.lo: /app/ext/interop/queue/destination.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/destination.zep.c -o interop/queue/destination.lo 
+interop/queue/connectionfactory.lo: /app/ext/interop/queue/connectionfactory.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/connectionfactory.zep.c -o interop/queue/connectionfactory.lo 
+interop/queue/consumer.lo: /app/ext/interop/queue/consumer.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/consumer.zep.c -o interop/queue/consumer.lo 
+interop/queue/context.lo: /app/ext/interop/queue/context.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/context.zep.c -o interop/queue/context.lo 
+interop/queue/exception/deliverydelaynotsupportedexception.lo: /app/ext/interop/queue/exception/deliverydelaynotsupportedexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/deliverydelaynotsupportedexception.zep.c -o interop/queue/exception/deliverydelaynotsupportedexception.lo 
+interop/queue/exception/prioritynotsupportedexception.lo: /app/ext/interop/queue/exception/prioritynotsupportedexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/prioritynotsupportedexception.zep.c -o interop/queue/exception/prioritynotsupportedexception.lo 
+interop/queue/exception/purgequeuenotsupportedexception.lo: /app/ext/interop/queue/exception/purgequeuenotsupportedexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/purgequeuenotsupportedexception.zep.c -o interop/queue/exception/purgequeuenotsupportedexception.lo 
+interop/queue/exception/subscriptionconsumernotsupportedexception.lo: /app/ext/interop/queue/exception/subscriptionconsumernotsupportedexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/subscriptionconsumernotsupportedexception.zep.c -o interop/queue/exception/subscriptionconsumernotsupportedexception.lo 
+interop/queue/exception/temporaryqueuenotsupportedexception.lo: /app/ext/interop/queue/exception/temporaryqueuenotsupportedexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/temporaryqueuenotsupportedexception.zep.c -o interop/queue/exception/temporaryqueuenotsupportedexception.lo 
+interop/queue/exception/timetolivenotsupportedexception.lo: /app/ext/interop/queue/exception/timetolivenotsupportedexception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/exception/timetolivenotsupportedexception.zep.c -o interop/queue/exception/timetolivenotsupportedexception.lo 
+interop/queue/message.lo: /app/ext/interop/queue/message.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/message.zep.c -o interop/queue/message.lo 
+interop/queue/processor.lo: /app/ext/interop/queue/processor.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/processor.zep.c -o interop/queue/processor.lo 
+interop/queue/producer.lo: /app/ext/interop/queue/producer.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/producer.zep.c -o interop/queue/producer.lo 
+interop/queue/queue.lo: /app/ext/interop/queue/queue.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/queue.zep.c -o interop/queue/queue.lo 
+interop/queue/subscriptionconsumer.lo: /app/ext/interop/queue/subscriptionconsumer.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/subscriptionconsumer.zep.c -o interop/queue/subscriptionconsumer.lo 
+interop/queue/topic.lo: /app/ext/interop/queue/topic.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/app/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /app/ext/interop/queue/topic.zep.c -o interop/queue/topic.lo 
+$(phplibdir)/interop.la: ./interop.la
+	$(LIBTOOL) --mode=install cp ./interop.la $(phplibdir)
+
+./interop.la: $(shared_objects_interop) $(INTEROP_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_interop) $(INTEROP_SHARED_LIBADD)
+
