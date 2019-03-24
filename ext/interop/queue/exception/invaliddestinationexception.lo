@@ -5,3 +5,8 @@
 # It is necessary for linking the library.
 
 # Name of the PIC object.
+pic_object='.libs/invaliddestinationexception.o'
+
+# Name of the non-PIC object.
+non_pic_object=none
+

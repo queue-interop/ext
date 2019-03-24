@@ -60,7 +60,7 @@ PHP_METHOD(Interop_Queue_Exception_InvalidDestinationException, assertDestinatio
 		ZEPHIR_INIT_NVAR(&name);
 		zephir_gettype(&name, destination TSRMLS_CC);
 	}
-	if (!(zephir_is_instance_of(destination, Z_STRVAL_P(className), Z_STRLEN_P(className) TSRMLS_CC))) {
+	if (!(zephir_is_instance_of(destination, Z_STRVAL_P(&className), Z_STRLEN_P(&className) TSRMLS_CC))) {
 		ZEPHIR_INIT_VAR(&_0$$5);
 		object_init_ex(&_0$$5, interop_queue_exception_invaliddestinationexception_ce);
 		ZEPHIR_INIT_VAR(&_1$$5);

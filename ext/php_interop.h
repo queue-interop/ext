@@ -14,7 +14,7 @@
 #define PHP_INTEROP_VERSION     "0.0.1"
 #define PHP_INTEROP_EXTNAME     "interop"
 #define PHP_INTEROP_AUTHOR      ""
-#define PHP_INTEROP_ZEPVERSION  "0.11.11-b661a58"
+#define PHP_INTEROP_ZEPVERSION  "0.11.12-1e3bafd"
 #define PHP_INTEROP_DESCRIPTION ""
 
 

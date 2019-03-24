@@ -53,7 +53,7 @@ PHP_METHOD(Interop_Queue_Exception_InvalidMessageException, assertMessageInstanc
 	zephir_get_strval(&className, className_param);
 
 
-	if (!(zephir_is_instance_of(message, Z_STRVAL_P(className), Z_STRLEN_P(className) TSRMLS_CC))) {
+	if (!(zephir_is_instance_of(message, Z_STRVAL_P(&className), Z_STRLEN_P(&className) TSRMLS_CC))) {
 		ZEPHIR_INIT_VAR(&name);
 		zephir_get_class(&name, message, 0 TSRMLS_CC);
 		ZEPHIR_INIT_VAR(&_0$$3);
