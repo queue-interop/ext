@@ -21,6 +21,6 @@ run.config:
   extra_steps:
     #===========================================================================
     # Get the Zephir phar
-    - wget --no-clobber -O /data/bin/zephir https://github.com/phalcon/zephir/releases/download/0.11.11/zephir.phar
+    - wget --no-clobber -O /data/bin/zephir https://github.com/phalcon/zephir/releases/download/0.11.12/zephir.phar
     - chmod +x /data/bin/zephir
 
