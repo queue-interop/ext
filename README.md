@@ -35,6 +35,16 @@ $ ../zephir build
 
 You will need to add `extension=queue.so` in your `php.ini` and restart your webserver.
 
+### Sources
+
+The recommended installation method is using [Zephir](https://zephir-lang.com), but you can install the extension directly from the `ext/` folder. You will need the php development sources to be installed in your system as well as make tools (`automake`, `make` etc.) and `re2c`.
+
+```bash
+$ git clone https://github.com/queue-interop/ext 
+$ cd ext/ext/
+$ ./install
+```
+
 ## License 
 
 [MIT license](LICENSE)
